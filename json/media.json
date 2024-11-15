@@ -1,0 +1,52 @@
+{
+    "about": "I am an engaged full stack development student with a great passion for building dynamic and user-friendly web systems. During my studies, I have gained practical experience in both frontend technologies like React and Next.js, and backend technologies like Node.js and MongoDB. My focus is on applying my knowledge to create creative solutions that solve real-world problems and enhance user experiences.",
+    "educations": [
+        {
+            "title": "Full stack java script developer",
+            "institution": "Chas Academy",
+            "land": "Stockholm",
+            "Type": "Full Time",
+            "date": "2024-2026"
+        },
+        {
+            "title": "Multimedia and web Technologies",
+            "institution": "ISIMS",
+            "land": "Tunisia",
+            "Type": "Full Time",
+            "date": "2011-2015"
+        },
+        {
+            "title": "Bachelor in Computer Science",
+            "institution": "Sadok Feki",
+            "land": "Tunisia",
+            "Type": "Full Time",
+            "date": "2006-2010 "
+        }
+        
+        
+    ],
+    "works": [
+        {
+            "title":   "Employees",
+            "company": "Wasa Skadeservise AB",
+            "land": "Stockholm",
+            "Type": "Full Time",
+            "date": "2022-2023"
+        },
+        {
+            "title":   "Employees",
+            "company": "Dys Servise",
+            "land": "Stockholm",
+            "Type": "Full Time",
+            "date": "2021-2022"
+        },
+        
+        {
+            "title":   "Commercial representative",
+            "company": "MC Pharma",
+            "land": "Tunisia",
+            "Type": "Full Time",
+            "date": "2015-2020"
+        }
+    ]
+}   
