@@ -19,6 +19,14 @@ const main = document.createElement("main");
 main.classList.add("about-main");
 const h2 = document.createElement("h2");
 h2.textContent = "About Me";
+const toggleIcon = document.createElement("span");
+toggleIcon.classList.add("toggle-icon");
+toggleIcon.textContent = " ▼"; 
+h2.appendChild(toggleIcon);
+h2.addEventListener("click", () => {
+    toggleAbout();
+    toggleIcon.textContent = toggleIcon.textContent === " ▼" ? " ▲" : " ▼"; 
+});
 main.appendChild(h2);
 async function displayAbout() {
     const data = await getMedia();
@@ -49,6 +57,7 @@ async function displayWorks() {
         div.classList.add("job");
         const div1 =document.createElement("div");
         div1.classList.add("post"); 
+        
         const p = document.createElement("p");
         p.classList.add("post-name");
         p.textContent = work.title;
@@ -89,6 +98,7 @@ async function displayWorks() {
         const hr = document.createElement("hr");
         section.appendChild(div);  
         section.appendChild(hr);
+        
     });
 };
 
@@ -149,6 +159,13 @@ async function displayEducations() {
         section.appendChild(hr);
     });
 };
+
+function toggleAbout() {
+    const aboutMeArticle = document.querySelector(".about-me");
+    if (aboutMeArticle) {
+        aboutMeArticle.style.display = aboutMeArticle.style.display === "none" ? "block" : "none";
+    }
+}
 
 displayWorks();
 displayEducations();

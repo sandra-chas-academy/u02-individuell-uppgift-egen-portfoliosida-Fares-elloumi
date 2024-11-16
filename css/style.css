@@ -61,7 +61,7 @@ header{
     text-decoration: none;
     color: var(--primary-color);
     font-weight: 500;
-
+    
 }
 
 .nav-icons{
@@ -74,6 +74,7 @@ header{
 
 .nav-icons img{
     width: 30px;
+    
 
 }
 
@@ -104,7 +105,7 @@ header{
 }
 
 .index-container{
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 .index-gradient-text{
@@ -140,7 +141,7 @@ footer{
     }
 
     .nav-links{
-        width: 50%;
+        width: 70%;
         display: flex;
         
     }
@@ -149,17 +150,23 @@ footer{
     .nav-icons{
         display: flex;
         gap: 15px;
-        
+        width: 3%;
+        margin: 10px;
     }
     .humberger img{
         display: none;
     }
     .links{
-        width: 100%;
+        width: 80%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }   
+        
+    } 
+    
+    .links a{
+        margin: 0px 10px;
+    }
 
     .index-section{
         width: 100%;
@@ -242,8 +249,16 @@ h2 {
     margin-top: 20px;
     
 }
+
+.about-main h2{
+    cursor: pointer;
+}
 .section {
     margin-top: 40px;
+    
+}
+#about{
+   /*  margin-right: 5px; */
 }
 .job {
     display: flex;
@@ -260,15 +275,16 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    
 }
 .post .post-name {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
 }
 .company p {
     display: flex;
     
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .company {
@@ -292,7 +308,7 @@ h2 {
 }
 .company-date .date {
     display: flex;
-    font-size: 12px;
+    font-size: 16px;
     color: var(--second-color);
 }
 
@@ -345,13 +361,13 @@ hr{
     .about-nav-links{
        
         display: flex;
-        width: 50%;
+        width: 70%;
         
         
     }
     .about-links{
         justify-content: space-between;
-        width: 100%;
+        width: 80%;
         
         display: flex;
         list-style: none;
@@ -361,20 +377,30 @@ hr{
         text-decoration: none;
         color: var(--primary-color);
         font-weight: 500;
+        margin: 0px 10px;
     }
         
 
     .about-nav-icons{
         display: flex;
         gap: 15px;
+        margin-left: 10px;
         
     }
 
     .about-main{
         max-width: 650px;
     }
+    #about{
+        max-width: 800px;
+    }
     h2{
         font-size: 24px;
+    }
+
+    .post .post-name {
+        font-size: 18px;
+        margin: 0;
     }
 
     .company{
