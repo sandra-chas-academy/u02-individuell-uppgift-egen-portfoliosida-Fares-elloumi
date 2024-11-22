@@ -47,6 +47,9 @@ header{
 .humberger img{
     width: 30px;
 }
+.humberger{
+    display: none;
+}
 
 .links{
     display: flex;
@@ -222,6 +225,45 @@ footer{
 body{
     
 }
+.links1{
+    width: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    line-height: 3;
+    margin:30px 0 30px 0px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color:var(--color-font-time);
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+
+    
+}
+
+.links1 a{
+    text-decoration: none;
+    font-weight: 900;
+    width: 200px;
+    color: black;
+    cursor: pointer;
+    
+}
+.links1 a:hover{
+    color:var(--color-time);
+}
+
+.humberger{
+    display: flex;
+    cursor: pointer;
+}
+
+
+
 .about-nav-links{
     display: none;
 }
@@ -365,12 +407,18 @@ hr{
         
         
     }
+    .links1{
+        
+        display: none;
+    }
+    
     .about-links{
         justify-content: space-between;
         width: 80%;
         
         display: flex;
         list-style: none;
+        flex-direction: row;
         
     }
     .about-links a{

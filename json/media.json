@@ -48,5 +48,41 @@
             "Type": "Full Time",
             "date": "2015-2020"
         }
+    ],
+    "projects": [
+        {
+            "title": "Trafikljus",
+            "description": "Trafikljus",
+            "techStack": "HTML/CSS",
+            "livePrewiw": "#",
+            "viewCode": "https://github.com/Fares-elloumi/trafik-ljuseet",
+            "image" : "img/trafikljus.jpg"
+        },
+        {
+            "title": "Adidas pub",
+            "description": "Product component adidas",
+            "techStack": "HTML/CSS",
+            "live": "#",
+            "code": "https://github.com/Fares-elloumi/adidas-pub",
+            "image" :"img/projekt1.jpg"
+        },
+        
+        {
+            "title": "Profil Card",
+            "description": "Profile card that contains information",
+            "techStack": "HTML/CSS",
+            "live": "#",
+            "code": "https://github.com/Fares-elloumi/profil-card",
+            "image" : "img/projekt3.jpg"
+        },
+
+        {
+            "title": "Radio player ",
+            "description": "Some Swidish radio channels",
+            "techStack": "HTML/CSS/JS",
+            "live": "#",
+            "code": "https://github.com/Fares-elloumi/radio-player",
+            "image" : "img/radio.jpg"
+        }
     ]
 }   
