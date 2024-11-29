@@ -1,6 +1,6 @@
 
 ### Fares Elloumi  FJS24
-
+https://u-02.netlify.app/projects
 ## Sammanfattning av projekt
 1. I detta projekt har jag vidareutvecklat min tidigare portfoliosida (u01) med fokus på att  integrera JavaScript för att förbättra användarupplevelsen. Målet har varit att skapa en mer interaktiv och informativ plattform som effektivt presenterar mina kvalifikationer och projekt. Jag har säkerställt att det finns en tydlig struktur med sektioner för "About me" och "Projects", vilket är centrala delar av min portfoliosida.
 * I "About me"-sektionen har jag ersatt den tidigare generiska texten med mitt riktiga CV. Jag har sammanställt mina utbildningar och tidigare arbetsplatser i en separat JSON-fil, vilket gör det enkelt att hantera och uppdatera informationen. Denna fil läses in med JavaScript och genererar automatiskt innehållet på sidan. Jag har inkluderat tre poster för både utbildningar och arbetslivserfarenhet, vilket ger en tydlig översikt över mina kvalifikationer.
