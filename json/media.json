@@ -6,21 +6,21 @@
             "institution": "Chas Academy",
             "land": "Stockholm",
             "Type": "Full Time",
-            "date": "2024-2026"
+            "date": "2024 - 2026"
         },
         {
             "title": "Multimedia and web Technologies",
             "institution": "ISIMS",
             "land": "Tunisia",
             "Type": "Full Time",
-            "date": "2011-2015"
+            "date": "2011 - 2015"
         },
         {
             "title": "Bachelor in Computer Science",
             "institution": "Sadok Feki",
             "land": "Tunisia",
             "Type": "Full Time",
-            "date": "2006-2010 "
+            "date": "2006 - 2010 "
         }
         
         
@@ -31,14 +31,14 @@
             "company": "Wasa Skadeservise AB",
             "land": "Stockholm",
             "Type": "Full Time",
-            "date": "2022-2023"
+            "date": "2022 - 2023"
         },
         {
             "title":   "Employees",
             "company": "Dys Servise",
             "land": "Stockholm",
             "Type": "Full Time",
-            "date": "2021-2022"
+            "date": "2021 - 2022"
         },
         
         {
@@ -46,13 +46,13 @@
             "company": "MC Pharma",
             "land": "Tunisia",
             "Type": "Full Time",
-            "date": "2015-2020"
+            "date": "2015 - 2020"
         }
     ],
     "projects": [
         {
             "title": "Trafikljus",
-            "description": "Trafikljus",
+            "description": "A simple application for a traffic light system.",
             "techStack": "HTML/CSS",
             "livePrewiw": "#",
             "viewCode": "https://github.com/Fares-elloumi/trafik-ljuseet",
@@ -60,7 +60,7 @@
         },
         {
             "title": "Adidas pub",
-            "description": "Product component adidas",
+            "description": "An advertising image showing the Adidas Superstar product.",
             "techStack": "HTML/CSS",
             "live": "#",
             "code": "https://github.com/Fares-elloumi/adidas-pub",
@@ -69,16 +69,16 @@
         
         {
             "title": "Profil Card",
-            "description": "Profile card that contains information",
+            "description": "A responsive profile card design that displays user information",
             "techStack": "HTML/CSS",
             "live": "#",
             "code": "https://github.com/Fares-elloumi/profil-card",
-            "image" : "img/projekt3.jpg"
+            "image" : "img/card.jpg"
         },
 
         {
             "title": "Radio player ",
-            "description": "Some Swidish radio channels",
+            "description": "A web-based radio player that allows users to listen to different Swidish radio stations with a user-friendly interface and controls.",
             "techStack": "HTML/CSS/JS",
             "live": "#",
             "code": "https://github.com/Fares-elloumi/radio-player",

@@ -3,6 +3,7 @@ let menu = document.getElementById("humberger");
 let container = document.querySelector(".about-nav-links");
 let link = document.querySelector(".about-links");
 let icon = document.getElementById("menu-icon");
+let btn = document.getElementById("btn");
 
 icon.addEventListener("click", ()=>{
     link.classList.toggle("links1");
@@ -16,6 +17,23 @@ icon.addEventListener("click", ()=>{
         link.style.display="none";
     }
 });
+
+window.onscroll = function(){
+    if(scrollY >=450)
+    {
+        btn.style.display ="block";
+    }else{
+        btn.style.display ="none";
+    }
+}
+btn.onclick = function(){
+    scroll({
+        left:0,
+        top: 0,
+        behavior:"smooth"
+
+    })
+}
 
 async function getMedia() {
     try {
